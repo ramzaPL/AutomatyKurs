@@ -24,7 +24,7 @@ public class JsAlerts {
 		
 		driver.findElement(By.id("confirmbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());
-		//klika w alercie w anuluj/nie itd - zadziala tylko w alertach które taki przycisk maj¹
+		//klika w alercie w anuluj/nie itd - zadziala tylko w alertach które taki przycisk maj¹ 
 		driver.switchTo().alert().dismiss();
 		
 	}
