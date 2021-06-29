@@ -1,3 +1,3 @@
 # AutomatyKurs
 Kurs Selenium WebDriver with Java
-Lekcje od 1 do 8
+Selenium WebDriver with Java -Basics to Advanced+Frameworks
