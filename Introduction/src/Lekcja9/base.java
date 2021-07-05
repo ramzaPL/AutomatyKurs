@@ -47,12 +47,18 @@ public class base {
 			// if (itemsNeededList.contains(name))
 			// trzecia wersja 9_70
 			if (itemsNeededList.contains(formatedName)) {
-				driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click();
+				// wersja pierwsza
+				// driver.findElements(By.xpath("//button[text()='ADD TO
+				// CART']")).get(i).click();
+				// 9_70
+				driver.findElements(By.xpath("//div[@class='product-action']/button")).get(i).click();
 				// wersja pierwsza 9_68
 				// break;
 				// 9_70 - je¿eli znajdzie wszytkie 3 poszukiwane warzywa, niech wyjdzie z pêtli
 				j++;
-				if (j == 3)
+				// if (j == 3)
+				// 9_70
+				if (j == itemsNeeded.length)
 					break;
 
 			}
